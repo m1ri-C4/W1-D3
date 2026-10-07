@@ -13,22 +13,21 @@
     <header>
         <main>
 
-            <div class="photo">
+            <div>
                 <h1> Mario Rossi</h1>
                 <p><b>Studente Full Stack</b> - corso epicode </p>
             </div>
 
+            <nav>
+                <ul>
+                    <li> <a href="#first"> Chi sono</a> </li>
+                    <li> <a href="#second"> Competenze</a> </li>
+                    <li> <a href="#third"> Esperienze</a> </li>
+                    <li> <a href="#fourth"> Progetti</a> </li>
+                    <li> <a href="#fifth"> Contattami</a> </li>
+                </ul>
+            </nav>
     </header>
-    <nav class="photo">
-        <ul>
-            <li> <a href="#first"> Chi sono</a> </li>
-            <li> <a href="#second"> Competenze</a> </li>
-            <li> <a href="#third"> Esperienze</a> </li>
-            <li> <a href="#fourth"> Progetti</a> </li>
-            <li> <a href="#fifth"> Contattami</a> </li>
-        </ul>
-    </nav>
-
     <div class="chiSono">
 
         <h2 id="first"> Chi sono </h2>
@@ -120,21 +119,21 @@
     <h2 id="fifth">Contattami</h2>
     <p> Compila il form per scrivermi. Ti rispondo entro 24 ore.</p>
 
-    <div>
+    <div class="form">
         <form>
             <!-- nome -->
             <label for="name"> Nome</label> <br>
             <input type="text" id="nome" name="nome" placeholder="Il tuo nome" />
             <br><br>
     </div>
-    <div>
+    <div class="form">
         <!-- email -->
         <label for="email">Email</label><br>
         <input type="email" id="email" name="email" placeholder="tu@esempio.it" />
         <br><br>
     </div>
 
-    <div>
+    <div class="form">
         <!-- motivo del contatto -->
         <label for="motivo">Motivo del contatto</label><br>
         <select id="motivo" name="motivo">
@@ -143,14 +142,14 @@
         <br><br>
     </div>
 
-    <div>
+    <div class="form">
         <!-- data -->
         <label for="data">Data preferita per la risposta</label><br>
         <input type="date" id="data" name="data" />
         <br><br>
     </div>
 
-    <div>
+    <div class="form">
         <!-- messaggio -->
         <label for="messaggio">Messaggio</label><br>
         <textarea id="messaggio" name="messaggio" rows="6" cols="30"
@@ -158,7 +157,7 @@
         <br><br>
     </div>
 
-    <div>
+    <div class="form">
         <!-- checkbox -->
         <input type="checkbox" id="consenso" name="consenso" />
         <label for="consenso"> Accetto di essere ricontattato all'indirizzo indicato</label>

@@ -5,7 +5,7 @@ body {
     background-color: rgba(243, 242, 242, 0.979);
 }
 
-.photo {
+header {
     background-image: url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
@@ -41,6 +41,10 @@ img {
     color: #1F3D7A;
     font-style: italic;
     line-height: 2;
+}
+
+nav ul {
+    color: white;
 }
 
 nav li {
@@ -84,16 +88,28 @@ a:visited {
     color: red;
 }
 
-button{
+button {
     background-color: hsl(220, 60%, 30%);
     font-weight: bold;
-    width:30%;
-    color:#ffffff
-    }
+    width: 30%;
+    color: #ffffff
+}
 
-button:hover{
-    background-color:hsl(220, 60%, 45%)
-    }
+button:hover {
+    background-color: hsl(220, 60%, 45%)
+}
+
+.form {
+    color: #1F3D7A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 60%;
+}
+
+.form input:focus,
+textarea:focus {
+    background-color: #232323;
+}
 
 footer {
     background-color: #172136;
