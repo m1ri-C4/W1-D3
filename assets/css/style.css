@@ -4,6 +4,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.photo {
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 h1  {
     color: white;        
     text-align: center;
@@ -20,6 +26,16 @@ h2 {
     color: #1F3D7A;  
 }
 
+img{
+    width: 40%;
+}
+
+.par{
+    color: #1F3D7A;
+    font-style: italic;
+    line-height: 2;
+}
+
 nav li {
     text-align: center;
     line-height: 3;
@@ -33,4 +49,13 @@ nav a:link, a:visited{
 nav a:hover{
     color:white; 
 }
+
+.competenze li:first-child{
+    font-weight: bold;
+}
+
+.competenze{
+    line-height: 1.5;
+}
+
 
