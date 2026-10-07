@@ -2,6 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: rgba(243, 242, 242, 0.979);
 }
 
 .photo {
@@ -10,27 +11,33 @@ body {
     background-position: center;
 }
 
-h1  {
-    color: white;        
+h1 {
+    color: white;
     text-align: center;
     font-style: italic;
 }
 
-header p{
+header p {
     color: #F44A4A;
     font-style: italic;
     text-align: center;
 }
 
-h2 {
-    color: #1F3D7A;  
+.chiSono {
+    background-color: #ffffff;
+    text-align: justify;
 }
 
-img{
+
+h2 {
+    color: #1F3D7A;
+}
+
+img {
     width: 40%;
 }
 
-.par{
+.par {
     color: #1F3D7A;
     font-style: italic;
     line-height: 2;
@@ -42,20 +49,55 @@ nav li {
     font-weight: bold;
 }
 
-nav a:link, a:visited{
-    color:hsl(67, 98%, 26%);
+nav a:link,
+a:visited {
+    color: hsl(67, 98%, 26%);
 }
 
-nav a:hover{
-    color:white; 
+nav a:hover {
+    color: white;
 }
 
-.competenze li:first-child{
+.competenze li:first-child {
     font-weight: bold;
 }
 
-.competenze{
-    line-height: 1.5;
+.competenze li:nth-child(odd) {
+    line-height: 2;
+    background-color: #F5F7FB;
 }
 
+.links:nth-of-type(odd) {
+    background-color: antiquewhite;
+}
 
+.links:nth-of-type(even) {
+    background-color: azure;
+}
+
+.links a:link,
+a:visited {
+    color: blue;
+}
+
+.links a:hover {
+    color: red;
+}
+
+button{
+    background-color: hsl(220, 60%, 30%);
+    font-weight: bold;
+    width:30%;
+    color:#ffffff
+    }
+
+button:hover{
+    background-color:hsl(220, 60%, 45%)
+    }
+
+footer {
+    background-color: #172136;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
