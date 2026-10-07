@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1  {
+    color: white;        
+    text-align: center;
+    font-style: italic;
+}
+
+header p{
+    color: #F44A4A;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color: #1F3D7A;  
+}
+
+nav li {
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+}
+
+nav a:link, a:visited{
+    color:hsl(67, 98%, 26%);
+}
+
+nav a:hover{
+    color:white; 
+}
+
