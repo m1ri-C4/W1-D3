@@ -26,9 +26,9 @@ main {
 }
 
 h1 {
-    padding-top:70px;
-    padding-bottom:33px;
-    margin:0;
+    padding-top: 70px;
+    padding-bottom: 33px;
+    margin: 0;
     color: white;
     text-align: center;
     font-style: italic;
@@ -49,10 +49,10 @@ header p {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-
-main section h2::before{
-    content:"- ";
-    color: hsl(45,90%,50%);
+main section h2::before {
+    content: "- ";
+    color: hsl(45, 90%, 50%);
+    font-size: 2em;
 }
 
 h2 {
@@ -100,6 +100,11 @@ nav a:hover {
     color: white;
 }
 
+.sos table, td, th{
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
 .competenze li:first-child {
     font-weight: bold;
 }
@@ -113,13 +118,13 @@ nav a:hover {
     background-color: antiquewhite;
 }
 
-.links:first-of-type h3::after{
+.links:first-of-type h3::after {
     content: "NEW";
-    display:inline-block;
-    padding:2px 8px;
-    margin-left:12px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
     background-color: red;
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 3px;
     font-size: 0.75rem;
 }
@@ -168,5 +173,5 @@ textarea:focus {
     color: #ffffff;
     text-align: center;
     font-size: 0.9rem;
-    padding:30px;
+    padding: 30px;
 }
